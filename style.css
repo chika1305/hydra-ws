@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+    font-style: normal; 
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+}
+.header_menu_a{
+    display: flex;
+    padding: 0 5px;
+}
+
+body{
+    /* background-color: #302C42; */
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo_hydra_text{
+    width: 76px;
+    height: 46px;
+    margin-left: 15px;
+}
+
+.header_menu {
+    display: flex;
+    font-family: "Montserrat";
+    color: white;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.header_logo_menu{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
