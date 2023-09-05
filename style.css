@@ -13,11 +13,12 @@ a:hover{
 }
 .header_menu_a{
     display: flex;
-    padding: 0 5px;
+    padding: 0 42px;
+    color: white;
 }
 
 body{
-    /* background-color: #302C42; */
+    background-color: #302C42;
 }
 
 .logo{
@@ -34,7 +35,7 @@ body{
 .header_menu {
     display: flex;
     font-family: "Montserrat";
-    color: white;
+    
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -45,4 +46,35 @@ body{
     margin: 50px;
     align-items: center;
     justify-content: space-between;
+}
+
+.buttons{
+}
+
+.header_buttons_1{
+    margin:0 38px;
+    border-radius: 40px;
+    color: white;
+    border: 2px solid #FFF;
+    background-color: #302C42;
+    width: 154px;
+    height: 48px;
+}
+.header_buttons_2{
+    width: 155px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border: 2px solid #302C42;
+}
+.vector_1{
+    float: right;
+    width: 377px;
+    height: 845px;
+    flex-shrink: 0;
+}
+
+.vector_2{
+    float: right;
 }
